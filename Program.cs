@@ -18,7 +18,9 @@ void PrintArray3Dim(int[,,] array)
             }
             Console.WriteLine();
         }
+        Console.WriteLine();
     }
+    Console.WriteLine();
 }
 int[] Mixing(int[] array, int length, int stepOfMix)
 {
@@ -36,9 +38,9 @@ int[] Mixing(int[] array, int length, int stepOfMix)
 }
 
 Console.Clear();
-int rowArray = new Random().Next(2, 4);
-int columnArray = new Random().Next(2, 4);
-int thirdArray = new Random().Next(2, 4);
+int rowArray = new Random().Next(2, 5);
+int columnArray = new Random().Next(2, 5);
+int thirdArray = new Random().Next(2, 5);
 int[,,] someArray = new int[rowArray, columnArray, thirdArray];
 
 //Создаем неповторяемые значения в одномерном массиве и перемешиваем
